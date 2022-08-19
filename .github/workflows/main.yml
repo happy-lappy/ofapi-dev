@@ -1,4 +1,4 @@
-name: OSAN-Develop
+name: OFAPI-Develop
 
 on:
   push:
@@ -10,7 +10,7 @@ env:
   GitHubName: "happy-lappy"
 
 jobs:
-  osandevelop:
+  ofapidevelop:
     runs-on: ubuntu-20.04
     steps:
       - name: "Checkout"
